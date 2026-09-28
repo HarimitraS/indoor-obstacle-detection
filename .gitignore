@@ -1,0 +1,39 @@
+# Virtual environment
+venv/
+.env/
+
+# Dataset
+dataset/raw/
+dataset/**/*.png
+dataset/**/*.jpg
+dataset/**/*.jpeg
+dataset/**/*.txt
+
+# Trained models
+models/*.pth
+models/*.pt
+models/*.onnx
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
+
+# Outputs
+outputs/
+runs/
+results/
+
+# Videos
+*.mp4
+*.avi
+*.mov
+
+# Logs
+*.log
+# Model files anywhere
+*.pt
+*.pth
+*.onnx
